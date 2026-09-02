@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{8F4E4F21-5C31-4E7D-9142-7A6318295510}]
+@="FaceUnlock Credential Provider"
+
+[HKEY_CLASSES_ROOT\CLSID\{8F4E4F21-5C31-4E7D-9142-7A6318295510}]
+@="FaceUnlock Credential Provider"
+
+[HKEY_CLASSES_ROOT\CLSID\{8F4E4F21-5C31-4E7D-9142-7A6318295510}\InprocServer32]
+@="C:\\Users\\user\\Desktop\\FaceUnlock\\WindowsCredentialProvider\\FaceUnlockProvider.dll"
+"ThreadingModel"="Apartment"

@@ -1,0 +1,52 @@
+# FaceUnlock - Secrets & Local Credentials
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Private keys
+*.private
+*.key
+
+# FaceUnlock enrollment credentials
+FaceUnlockEnrollment/
+
+# Local credentials
+credentials.json
+secrets.json
+
+# Authentication/session secrets
+*.secret
+*.token
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Local TLS private key
+192-168-1-69.sslip.io-key.pem
+
+# Old/local certificates and keys
+192.168.1.69+2-key.pem
+192.168.1.69+2.pem
+credential.json
+credential_backup.json
+
+# Build output
+*.exe
+*.obj
+*.dll
+*.lib
+*.exp
+
+
+# Local TLS certificate
+192-168-1-69.sslip.io.pem

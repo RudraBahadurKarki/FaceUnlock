@@ -1,0 +1,5 @@
+LIBRARY FaceUnlockProvider_v8
+
+EXPORTS
+    DllGetClassObject
+    DllCanUnloadNow
