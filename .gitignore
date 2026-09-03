@@ -50,3 +50,10 @@ credential_backup.json
 
 # Local TLS certificate
 192-168-1-69.sslip.io.pem
+
+
+# Local PC identity
+FaceUnlockStage9/pc_identity.json
+
+session_secret.txt
+agent_secret.txt
