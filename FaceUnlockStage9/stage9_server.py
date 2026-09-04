@@ -3259,6 +3259,12 @@ def pairing_auth_verify():
     challenge = authentication["challenge"]
     username = authentication["username"]
 
+    pairing_authentication_challenges.pop(
+        pairing_token,
+        None
+    )
+
+
     credential_id = credential.get("id")
 
     if not isinstance(credential_id, str) or not credential_id:
